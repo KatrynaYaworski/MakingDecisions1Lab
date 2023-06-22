@@ -158,25 +158,6 @@ let z = 5;
 //Once you have logged the countdown, make sure you decrement z by 1. 
 //If your code is running properly, you should see: 5,4,3,2,1,4,3,2,1,3,2,1,2,1,1.
 
-
-// while(z > 0){
-//   let num = z
-//   z -= 1
-//   while(num > 0){
-//     console.log(num)
-//   num -= 1
-//   }
-// }
-
-while(z > 0){
-  let num = z
-  z -= 1
-  for(let i = num; i > 0; i--){
-    console.log(num)
-    num -= 1
-  }
-}
-
 while(z > 0){
   for(let i = z; i > 0; i--){
     console.log(i)
